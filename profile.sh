@@ -1,8 +1,7 @@
 #!/bin/sh
 
-. $HOME/.colors.sh
-. $HOME/.git-prompt.sh
-. $HOME/.git-completion.sh
+. $HOME/.profile.d/colors.sh
+. $HOME/.profile.d/git-prompt.sh
 
 POINTER_CHAR="⬆"
 PREINFO="\n$POINTER_CHAR $BIBLUE[ "$BLUE"exit: $WHITE\$?$BIBLUE ] [ "$BLUE"time: $WHITE\$(TZ='America/Los_Angeles' date +%H:%M:%S)$BIBLUE ]$END_COLOR"
